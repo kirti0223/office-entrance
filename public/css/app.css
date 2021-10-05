@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(215, 250, 234);
+  padding-top: 30px;
+}
+section {
+  background-color: black;
+  border: 2px solid #ccc;
+  color: white;
+  margin: auto;
+  width: 600px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+li {
+  text-align: center;
+  padding: 10px;
+}
+table {
+  margin: auto;
+  background-color: rgb(215, 250, 244);
+  text-align: center;
+  border-collapse: collapse;
+  color: black;
+  width: 75%;
+  margin-bottom: 20px;
+}
+td {
+  border: 2px solid rgb(85, 199, 132);
+  padding: 5px;
+  width: 70%;
+  text-align: center;
+}
+#lastrow {
+  border-bottom: 5px solid black;
+}
+#firstrow {
+  border-top: 2.5px solid black;
+}
+#enter {
+  width: 150px;
+  height: 100px;
+  background-color: rgb(216, 70, 102);
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+#enter:hover {
+  background-color: rgb(224, 102, 129);
+}
+#delete {
+  background-color: rgb(212, 41, 41);
+  width: 100px;
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 0;
+}
+#delete:hover {
+  background-color: rgb(226, 8, 8);
+}
+#exit {
+  background-color: rgb(114, 231, 36);
+  width: 100px;
+  height: 50px;
+  font-size: 1.2rem;
+  color: rgb(21, 22, 21);
+  border-radius: 5px;
+  border: 0;
+}
+#exit:hover {
+  background-color: rgb(61, 192, 1);
+}
+#submit {
+  background-color: rgb(144, 196, 238);
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+}
+form {
+  text-align: left;
+  padding: 30px;
+}
+input {
+  float: right;
+  padding: 5px;
+}
+#id,
+#email,
+#phone {
+  width: 60%;
+}
